@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+nav {
+  background-color: #408bda;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+nav strong {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+main {
+  margin: 2rem;
+}
+h1 {
+  margin: 4rem 0;
+  font-weight: 600;
+  text-align: center;
+}
+h2 {
+  margin: 3rem 1rem;
+  font-weight: 500;
+}
+h3 {
+  margin: 2rem;
+  font-weight: 500;
+}
+#tableOfContent main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 4rem 0;
+}
+#tableOfContent main h1 {
+  margin-bottom: 4rem;
+}
+#tableOfContent main ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+#gettingStarted {
+  width: 100%;
+  min-height: 100vh;
+}
+#gettingStarted #h2 {
+  margin-top: 8rem;
+}
+#gettingStarted div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+#gettingStarted img {
+  width: 100%;
+}
+#dtmView div {
+  margin-bottom: 8rem;
+}
+#dtmView .mobile {
+  display: flex;
+  gap: 1rem;
+}
+#dtmView .desktop img {
+  width: 100%;
+}
+#dtmView .tablet img {
+  width: 75%;
+}
+#dtmView .mobile img {
+  width: 50%;
+}
+#navElements .mainUl {
+  margin: 2rem 4rem;
+}
+#navElements .mainUl .mainLi {
+  font-weight: 500;
+  margin: 0.5rem;
+}
+#navElements .mainUl .subUl {
+  margin: 0 2rem;
+}
+#navElements .container img {
+  width: 100%;
+  margin: 2rem 0;
+}
+#navElements .container h2 {
+  margin-bottom: 0;
+  margin-top: 6rem;
+}
+#navElements .container h3 {
+  margin: 0.5rem 2rem 0;
+}
+#navElements .container ul {
+  margin: 2rem;
+}
+#navElements .container ul li {
+  margin: 2rem 0;
+}
+#navElements .container .navItemName {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+#navElements .container .moduleList,
+#navElements .container .moduleMenu,
+#navElements .container .quickCreate,
+#navElements .container .notification,
+#navElements .container .userMenu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+#navElements .container .moduleList img,
+#navElements .container .quickCreate img,
+#navElements .container .notification img,
+#navElements .container .userMenu img {
+  margin: 0;
+  width: 10%;
+  object-fit: contain;
+}
+#navElements .container .moduleMenu img,
+#navElements .container .sidebarImg img {
+  margin: 1rem 0;
+  width: 10%;
+  object-fit: contain;
+}
+#navElements .container .sidebarImg {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+}
+#navElements .TtopNavMenu img,
+#navElements .TbottomNavMenu img {
+  width: 75%;
+}
+#navElements .MtopNavMenu img,
+#navElements .MbottomNavMenu img {
+  width: 50%;
+}
