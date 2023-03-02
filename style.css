@@ -14,7 +14,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:  2rem;
+  padding: 1rem 2rem;
   position: sticky;
   top: 0;
   left: 0;
@@ -98,7 +98,8 @@ h3 {
 #navElements .mainUl .subUl {
   margin: 0 2rem;
 }
-#navElements .container img {
+#navElements .container img,
+#views .container img {
   width: 100%;
   margin: 2rem 0;
 }
@@ -123,7 +124,8 @@ h3 {
 #navElements .container .moduleMenu,
 #navElements .container .quickCreate,
 #navElements .container .notification,
-#navElements .container .userMenu {
+#navElements .container .userMenu,
+#views .container .actionTab {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -155,4 +157,29 @@ h3 {
 #navElements .MtopNavMenu img,
 #navElements .MbottomNavMenu img {
   width: 50%;
+}
+#views .container ul {
+  margin: 1rem 0 1rem 5rem;
+}
+#views .container ul li {
+  margin: 2rem 0;
+}
+#views .container ul li .listName {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+#views .container .actionTab img {
+  margin: 0;
+  width: 20%;
+  object-fit: contain;
+}
+#search nav img {
+  margin: 0;
+}
+#search h2 {
+  margin: 3rem 0 0 0;
+}
+#search img {
+  width: 100%;
+  margin: 3rem 0 1rem 0;
 }
