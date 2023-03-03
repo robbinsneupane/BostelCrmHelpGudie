@@ -19,13 +19,20 @@ nav {
   top: 0;
   left: 0;
 }
+nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
 nav strong {
   color: white;
   font-weight: 500;
   font-size: 1.2rem;
 }
 main {
-  margin: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 2rem;
 }
 h1 {
   margin: 4rem 0;
@@ -33,12 +40,16 @@ h1 {
   text-align: center;
 }
 h2 {
-  margin: 3rem 1rem;
+  margin: 3rem 1rem 2rem 1rem;
   font-weight: 500;
 }
 h3 {
   margin: 2rem;
   font-weight: 500;
+}
+.listName {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 #tableOfContent main {
   width: 100%;
@@ -99,7 +110,10 @@ h3 {
   margin: 0 2rem;
 }
 #navElements .container img,
-#views .container img {
+#views .container img,
+#desktopNotification img,
+#workGroup img,
+#calander img {
   width: 100%;
   margin: 2rem 0;
 }
@@ -125,7 +139,10 @@ h3 {
 #navElements .container .quickCreate,
 #navElements .container .notification,
 #navElements .container .userMenu,
-#views .container .actionTab {
+#views .container .actionTab,
+#desktopNotification .popup,
+#calander .calanderActions,
+#calander .quickCalander {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -144,6 +161,18 @@ h3 {
   width: 10%;
   object-fit: contain;
 }
+#views .container .actionTab img,
+#desktopNotification .popup img,
+#calander .calanderActions img {
+  margin: 0;
+  width: 20%;
+  object-fit: contain;
+}
+#calander .quickCalander img {
+  margin: 1rem 0;
+  width: 20%;
+  object-fit: contain;
+}
 #navElements .container .sidebarImg {
   display: flex;
   align-items: center;
@@ -158,28 +187,41 @@ h3 {
 #navElements .MbottomNavMenu img {
   width: 50%;
 }
-#views .container ul {
+#views .container ul,
+#desktopNotification ul,
+#calander ul {
   margin: 1rem 0 1rem 5rem;
 }
-#views .container ul li {
+#views .container ul li,
+#desktopNotification ul li,
+#calander ul li {
   margin: 2rem 0;
 }
-#views .container ul li .listName {
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-#views .container .actionTab img {
-  margin: 0;
-  width: 20%;
-  object-fit: contain;
-}
-#search nav img {
-  margin: 0;
-}
-#search h2 {
+#search h2,
+#desktopNotification h2 {
   margin: 3rem 0 0 0;
 }
 #search img {
   width: 100%;
   margin: 3rem 0 1rem 0;
+}
+#workGroup h1 {
+  margin-bottom: 2rem;
+}
+#calander .calanderSettingsImg:first-of-type img {
+  margin-bottom: 0 !important;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 0 0;
+  border-top: 1px solid #bedcfd;
+  padding: 2rem;
+}
+footer a {
+  text-decoration: none;
+  color: #408bda;
+  cursor: pointer;
 }
