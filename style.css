@@ -14,7 +14,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   position: sticky;
   top: 0;
   left: 0;
@@ -46,6 +46,9 @@ h2 {
 h3 {
   margin: 2rem;
   font-weight: 500;
+}
+img {
+  width: 100%;
 }
 .listName {
   font-weight: 500;
@@ -113,7 +116,13 @@ h3 {
 #views .container img,
 #desktopNotification img,
 #workGroup img,
-#calander img {
+#calander img,
+#userProfile img,
+#contacts img,
+#leads img,
+#projects img,
+#reports img,
+#reschedule img {
   width: 100%;
   margin: 2rem 0;
 }
@@ -142,7 +151,21 @@ h3 {
 #views .container .actionTab,
 #desktopNotification .popup,
 #calander .calanderActions,
-#calander .quickCalander {
+#calander .quickCalander,
+#userProfile .userTab,
+#contacts .actionTab,
+#leads .leadAction,
+#leads .convertLead,
+#leads .flex,
+#calls .actions,
+#tasks .actions,
+#meetings .actions,
+#notes .actions,
+#opportunities .actions,
+#cases .actions,
+#projects .actions,
+#reports .actions,
+#reschedule .actions {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -163,12 +186,24 @@ h3 {
 }
 #views .container .actionTab img,
 #desktopNotification .popup img,
-#calander .calanderActions img {
+#calander .calanderActions img,
+#userProfile .userTab img,
+#leads .flex img,
+#cases .actions img {
   margin: 0;
   width: 20%;
   object-fit: contain;
 }
-#calander .quickCalander img {
+#calander .quickCalander img,
+#contacts .actionTab img,
+#leads .leadAction img,
+#calls .actions img,
+#tasks .actions img,
+#meetings .actions img,
+#notes .actions img,
+#opportunities .actions img,
+#projects .actions img,
+#reports .actions img {
   margin: 1rem 0;
   width: 20%;
   object-fit: contain;
@@ -189,12 +224,33 @@ h3 {
 }
 #views .container ul,
 #desktopNotification ul,
-#calander ul {
+#calander ul,
+#userProfile ul,
+#contacts ul,
+#leads ul,
+#calls ul,
+#tasks ul,
+#meetings ul,
+#notes ul,
+#opportunities ul,
+#cases ul,
+#projects ul,
+#reports ul {
   margin: 1rem 0 1rem 5rem;
 }
 #views .container ul li,
 #desktopNotification ul li,
-#calander ul li {
+#calander ul li,
+#contacts ul li,
+#leads ul li,
+#calls ul li,
+#tasks ul li,
+#meetings ul li,
+#notes ul li,
+#opportunities ul li,
+#cases ul li,
+#projects ul li,
+#reports ul li {
   margin: 2rem 0;
 }
 #search h2,
@@ -211,7 +267,20 @@ h3 {
 #calander .calanderSettingsImg:first-of-type img {
   margin-bottom: 0 !important;
 }
-
+#userProfile h2 {
+  margin: 5rem 0 0 0;
+}
+#leads .convertLead img,
+#reschedule .actions img {
+  width: 40%;
+}
+#reports .chartsType li {
+  margin: 1rem 0;
+}
+#sms h3 {
+  text-align: center;
+  margin: 8rem auto;
+}
 footer {
   display: flex;
   align-items: center;
