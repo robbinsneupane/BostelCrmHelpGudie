@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Views</title>
+    <title>Navigation Elements</title>
   </head>
   <body id="navElements">
     <nav>
@@ -30,7 +30,7 @@
       </p>
       <ul class="mainUl">
         <li>
-          <p class="mainLi">Desktop View</p>
+          <p class="listName">Desktop View</p>
           <ul class="subUl">
             <li>Top Navigation Menu</li>
             <li>Sidebar Menu</li>
@@ -38,21 +38,22 @@
           </ul>
         </li>
         <li>
-          <p class="mainLi">Desktop View</p>
+          <p class="listName">Tablet View</p>
           <ul class="subUl">
             <li>Top Navigation Menu</li>
             <li>Bottom Navigation Menu</li>
           </ul>
         </li>
         <li>
-          <p class="mainLi">Desktop View</p>
+          <p class="listName">Mobile View</p>
           <ul class="subUl">
             <li>Top Navigation Menu</li>
             <li>Bottom Navigation Menu</li>
           </ul>
         </li>
       </ul>
-      <section class="container DtopNavMenu">
+
+      <section class="container">
         <h2>Desktop View</h2>
         <h3>Top Navigation Menu</h3>
         <img src="/Assets/desktopNav.png" alt="" />
@@ -61,17 +62,17 @@
           managing records within BostelCRM. When on the Home page, the top
           navigation menu consists of nine elements, which are:
         </p>
-        <ul>
+        <ul class="list">
           <li>
-            <p class="navItemName">Home</p>
+            <p class="listName">Home</p>
             <p>
               By clicking on this feature, you will be directed to the Home
               page, where you can view your recently accessed items.
             </p>
           </li>
           <li>
-            <p class="navItemName">Module List Menu</p>
-            <div class="moduleList">
+            <p class="listName">Module List Menu</p>
+            <div class="flex">
               <img src="/Assets/modulelist.png" alt="" />
               <p>
                 This feature displays a list of various modules within
@@ -86,8 +87,8 @@
             </div>
           </li>
           <li>
-            <p class="navItemName">Module Menu</p>
-            <div class="moduleMenu">
+            <p class="listName">Module Menu</p>
+            <div class="flex">
               <img src="/Assets/module menu.png" alt="" />
               <p>
                 When you access a particular module, the menu that shows up
@@ -103,17 +104,17 @@
             </div>
           </li>
           <li>
-            <p class="navItemName">WorkGroup Name</p>
+            <p class="listName">WorkGroup Name</p>
             <p>
               This feature displays the name of your work group in the CRM,
               which you selected during account creation, typically the name of
               your business or company.
             </p>
           </li>
-          <li><p class="navItemName">BostelCRM Logo</p></li>
+          <li><p class="listName">BostelCRM Logo</p></li>
           <li>
-            <p class="navItemName">Quick Create</p>
-            <div class="quickCreate">
+            <p class="listName">Quick Create</p>
+            <div class="flex">
               <img src="/Assets/quickCreate.png" alt="" />
               <p>
                 Within BostelCRM, the Quick Create feature enables users to
@@ -127,15 +128,11 @@
             </div>
           </li>
           <li>
-            <p class="navItemName">Global Search</p>
-            <div>
-              <p>
-                By utilizing the search feature, it is possible to conduct
-                searches for data and records within BostelCRM.
-              </p>
-              <img src="/Assets/globalSearch.png" alt="" />
-            </div>
+            <p class="listName">Global Search</p>
+            <img src="/Assets/globalSearch.png" alt="" />
             <p>
+              By utilizing the search feature, it is possible to conduct
+              searches for data and records within BostelCRM. <br /><br />
               The global search feature in BostelCRM allows you to explore all
               records. Clicking the magnifying glass icon on the top navigation
               menu opens a search text box, where you can enter your query and
@@ -145,8 +142,8 @@
             </p>
           </li>
           <li>
-            <p class="navItemName">Notifications</p>
-            <div class="notification">
+            <p class="listName">Notifications</p>
+            <div class="flex">
               <p>
                 This functionality exhibits the notifications that you have
                 received.
@@ -161,15 +158,15 @@
             </div>
           </li>
           <li>
-            <p class="navItemName">SMS</p>
+            <p class="listName">SMS</p>
             <p>
               The SMS communication feature will be included in an upcoming
               update.
             </p>
           </li>
           <li>
-            <p class="navItemName">User Menu</p>
-            <div class="userMenu">
+            <p class="listName">User Menu</p>
+            <div class="flex">
               <p>
                 You can view and modify your profile and log out of the CRM
                 using the drop-down menu next to your name, which is shown as
@@ -187,10 +184,10 @@
         </ul>
       </section>
 
-      <section class="container DsidebarMenu">
+      <section class="container">
         <h2>Desktop View</h2>
         <h3>Sidebar Menu</h3>
-        <div class="sidebarImg">
+        <div class="flex">
           <img src="/Assets/sidebar.png" alt="" />
           <p>
             The sidebar is located on the left side of the window, below the Top
@@ -203,7 +200,7 @@
             the arrow button beside it.
           </p>
         </div>
-        <div class="sidebarImg">
+        <div class="flex">
           <img src="/Assets/sidebar 2.png" alt="" />
           <p>
             Furthermore, when you're in a module, the sidebar may show quick
@@ -212,7 +209,7 @@
         </div>
       </section>
 
-      <section class="container DbottomNavMenu">
+      <section class="container">
         <h2>Desktop View</h2>
         <h3>Bottom Navigation Menu</h3>
         <img src="/Assets/bottomNav.png" alt="" />
@@ -227,7 +224,7 @@
           The Add button may appear on the bottom navigation menu in certain
           modules, allowing you to create new records within that module.
         </p>
-        <div class="sidebarImg">
+        <div class="flex">
           <img src="/Assets/salesReport.png" alt="" />
           <p>
             The sidebar is located on the left side of the window, below the Top
@@ -242,11 +239,11 @@
         </div>
       </section>
 
-      <section class="container TtopNavMenu">
+      <section class="container">
         <h2>Tablet View</h2>
         <h3>Top Navigation Menu</h3>
         <img src="/Assets/tabletViewNav.png" alt="" />
-        <div class="sidebarImg">
+        <div class="flex">
           <img src="/Assets/tabletView 2.png" alt="" />
           <p>
             In the Tablet view of the Top Navigation Menu, there is one more
@@ -259,7 +256,7 @@
             button.
           </p>
         </div>
-        <div class="sidebarImg">
+        <div class="flex">
           <img src="/Assets/tabletView 3.png" alt="" />
           <p>
             You might observe another difference in that the module menu is now
@@ -272,7 +269,7 @@
         </div>
       </section>
 
-      <section class="container TbottomNavMenu">
+      <section class="container tablet">
         <h2>Tablet View</h2>
         <h3>Bottom Navigation Menu</h3>
         <img src="/Assets/tabletBottomMenu.png" alt="" />
@@ -283,7 +280,7 @@
         </p>
       </section>
 
-      <section class="container MtopNavMenu">
+      <section class="container mobile">
         <h2>Mobile View</h2>
         <h3>Top Navigation Menu</h3>
         <img src="/Assets/mobileTopNav.png" alt="" />
@@ -296,7 +293,7 @@
         </p>
       </section>
 
-      <section class="container MbottomNavMenu">
+      <section class="container mobile">
         <h2>Mobile View</h2>
         <h3>Bottom Navigation Menu</h3>
         <img src="/Assets/mobileBottomNav.png" alt="" />

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Invoice</title>
+  </head>
+  <body id="invoice">
+    <nav>
+      <a href="index.html"><strong>Help Guide</strong></a>
+      <a href="index.html">← Return to Table of Content</a>
+    </nav>
+    <main>
+      <h1>Invoice</h1>
+      <h2>Creating an Invoice</h2>
+      <img src="/Assets/creatingInvoice.png" alt="" />
+      <p>
+        The process of creating an Invoice record closely resembles that of
+        creating a Quote record. To initiate the creation of an Invoice, you can
+        either select 'Create Invoice' from the actions bar within the Invoices
+        module, or click the 'Add' button located at the bottom. The first panel
+        of the creation process allows you to specify crucial details about the
+        Invoice, such as the Status and Due Date.
+      </p>
+      <img src="/Assets/creatingInvoice2.png" alt="" />
+      <p>
+        The second panel focuses on the recipient of the Invoice from the
+        Contacts module. Upon selecting the appropriate Contact, the Billing
+        Address is automatically retrieved and populated into the relevant
+        fields of the Invoice record. In the event that the Shipping Address
+        matches the Billing Address, clicking the "Same As Billing Address"
+        button will efficiently duplicate the information into the relevant
+        Shipping Address fields.
+      </p>
+      <h2>Line Items with Groups</h2>
+      <p>
+        Users have the ability to include Groups and Line Items in their
+        Invoices via this module. The process is identical to that of creating
+        Groups and Line Items for Quotes. <br /><br />
+        Please refer to the Quotes section for details on how to create Groups
+        and Line Items.
+      </p>
+
+      <h2>Sending Invoices</h2>
+      <div class="flex">
+        <img src="/Assets/sendInvoice.png" alt="" />
+        <p>
+          To generate output for an Invoice, you can select one of the following
+          three buttons from the Invoice Detail View. These three methods are:
+        </p>
+      </div>
+      <ul class="list">
+        <li>
+          <p class="listName">Print as PDF</p>
+          <p>
+            Allows you to select a template and download or save a PDF of the
+            Invoice.
+          </p>
+        </li>
+        <li>
+          <p class="listName">Email PDF</p>
+          <p>
+            Allows you to select a template and then directs you to the email
+            client 'Compose' screen. The Invoice PDF will be attached to the
+            email and the email will be addressed to the related Contact of the
+            Invoice. This allows you to fill out the email body.
+          </p>
+        </li>
+        <li>
+          <p class="listName">Email Invoice</p>
+          <p>
+            This directs you to the email client 'Compose' screen. The email
+            will be addressed to the related Contact of the Invoice. There will
+            be no attachment and the Invoice will be displayed within the body
+            of the email.
+          </p>
+        </li>
+      </ul>
+    </main>
+    <footer>
+      <small>Bostel CRM Help Guide | Ver 1.01.02</small>
+      <a href="index.html"><small>← Return to Table of Content</small></a>
+    </footer>
+  </body>
+</html>

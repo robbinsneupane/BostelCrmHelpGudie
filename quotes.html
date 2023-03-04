@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quotes</title>
+  </head>
+  <body id="quotes">
+    <nav>
+      <a href="index.html"><strong>Help Guide</strong></a>
+      <a href="index.html">← Return to Table of Content</a>
+    </nav>
+    <main>
+      <h1>Quotes</h1>
+      <h2>Creating a Quote</h2>
+      <img src="/Assets/createQuotes.png" alt="" />
+      <p>
+        To create a Quote, navigate to the Quotes module and click either the
+        "Create Quote" button located in the Actions bar or the "Add" button at
+        the bottom. The initial panel will prompt you to input information such
+        as the Quote Title, related Opportunity, Stage, and Payment Terms. Note
+        that the Quote Number field will be automatically calculated.
+      </p>
+      <img src="/Assets/address.png" alt="" />
+      <p>
+        In the second panel, you can identify the recipient of the Quote from
+        the Contacts module. Once you have selected the appropriate Contact, the
+        Billing Address associated with that Contact will be dynamically
+        populated into the corresponding fields on the Quote record.
+        Additionally, if the Shipping Address is identical to the Billing
+        Address, clicking the "Same As Billing Address" button will
+        automatically transfer the information into the Shipping Address fields
+        as well.
+      </p>
+
+      <h2>Line Items with Groups</h2>
+      <p>
+        The third panel provides the option to add Quote Groups and Line Items.
+        A Group consists of a collection of Line Items, and has its own
+        corresponding Group Total. A Line Item can either be a Product Line or a
+        Quick Item. To create a new Quote Group, click on the "Add Group"
+        button.
+      </p>
+      <img src="/Assets/lineItems.png" alt="" />
+      <p>
+        Clicking the "Add Group" button will create a new Group, which will
+        prompt you to input a Group Name and add either a Product Line or a
+        Quick Item. The corresponding Group Totals will be displayed as well.
+      </p>
+      <img src="/Assets/lineItems2.png" alt="" />
+      <p>
+        To add a Product Line, select the "Add Product Line" option. This will
+        enable you to quote for products from the Products module.
+      </p>
+      <img src="/Assets/addProductLine.png" alt="" />
+      <p>
+        To select a Product, you can either type in the Product or Part Number
+        field and a list of results will appear, similar to any related field.
+        Alternatively, you can click the arrow button located next to the Part
+        Number field, which will open a pop-up window displaying a list of
+        available Products for selection. <br /><br />
+
+        After selecting a Product, the List, Sale Price, and Total fields will
+        populate automatically. You can then modify the Quantity, add Discounts
+        (either Percentage or Amount), and adjust the Tax percentage as
+        necessary. These changes will affect the Sale Price, Total Price, and
+        Group Total fields.
+      </p>
+      <img src="/Assets/addQuickItem.png" alt="" />
+      <p>
+        To add a Quick Item, click on "Add Quick Item". This option enables you
+        to quote for services and other miscellaneous items. <br /><br />
+        For Quick Items, you need to specify the List price, which will
+        automatically populate the Sale Price field. Tax and Discounts can be
+        added similarly to the Product Line. A Grand Total will be calculated
+        for each Group.
+      </p>
+      <img src="/Assets/total.png" alt="" />
+      <p>
+        In addition to the Group Totals, a Grand Total will be calculated for
+        all Groups combined.
+        <br /><br />
+        The Shipping field enables you to add the cost of shipping, while the
+        Shipping Tax field allows you to add tax to this value. After you have
+        compiled the Quote, click 'Save' to save it.
+      </p>
+
+      <h2>Sendign Quotations</h2>
+      <div class="flex">
+        <img src="/Assets/sendingQuotations.png" alt="" />
+        <p>
+          To generate an output for the Quote, you can select one of the
+          following three buttons from the Quote Detail View. These three
+          methods are:
+        </p>
+      </div>
+      <ul class="list">
+        <li>
+          <p class="listName">Print as PDF</p>
+          <p>
+            Allows you to select a template and download or save a PDF of the
+            Quote.
+          </p>
+        </li>
+        <li>
+          <p class="listName">Email PDF</p>
+          <p>
+            Allows you to select a template then directs you to the email client
+            'Compose' screen. The Quote PDF will be attached to the email and
+            the email will be addressed to the related Contact of the Quote.
+            This allows you to fill out the email body.
+          </p>
+        </li>
+        <li>
+          <p class="listName">Email Quotation</p>
+          <p>
+            This directs you to the email client 'Compose' screen. The email
+            will be addressed to the related Contact of the Quote. There will be
+            no attachment and the Quote will be displayed within the body of the
+            email.
+          </p>
+        </li>
+      </ul>
+
+      <h2>Convert to Invoice</h2>
+      <div class="flex">
+        <img src="/Assets/sendingQuotations2.png" alt="" />
+        <p>
+          By clicking the 'Convert to Invoice' button on the Quote Detail View
+          in the Quote module, you can convert a Quote to an Invoice. <br />
+          <br />
+          Users will be directed to the Edit View of an Invoice record through
+          this feature. The fields will be automatically filled in based on the
+          corresponding Quote and Line Items will be duplicated. To create the
+          Invoice, simply click the 'Save' button. The status of the Quote will
+          be changed to 'Invoiced' when it is converted to an Invoice.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <small>Bostel CRM Help Guide | Ver 1.01.02</small>
+      <a href="index.html"><small>← Return to Table of Content</small></a>
+    </footer>
+  </body>
+</html>

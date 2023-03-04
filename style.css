@@ -40,246 +40,38 @@ h1 {
   text-align: center;
 }
 h2 {
-  margin: 3rem 1rem 2rem 1rem;
+  margin: 3rem 1rem 2rem 0rem;
   font-weight: 500;
 }
 h3 {
   margin: 2rem;
   font-weight: 500;
 }
+p {
+  color: rgb(45, 45, 45);
+}
 img {
   width: 100%;
+  margin: 2rem 0;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.flex img {
+  min-width: 15%;
+  max-width: 20%;
+}
+.list {
+  margin: 1rem 0 1rem 5rem;
+}
+.list li {
+  margin: 2rem 0;
 }
 .listName {
   font-weight: 500;
   margin-bottom: 0.5rem;
-}
-#tableOfContent main {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 0 4rem 0;
-}
-#tableOfContent main h1 {
-  margin-bottom: 4rem;
-}
-#tableOfContent main ul li {
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-}
-#gettingStarted {
-  width: 100%;
-  min-height: 100vh;
-}
-#gettingStarted #h2 {
-  margin-top: 8rem;
-}
-#gettingStarted div {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  gap: 2rem;
-}
-#gettingStarted img {
-  width: 100%;
-}
-#dtmView div {
-  margin-bottom: 8rem;
-}
-#dtmView .mobile {
-  display: flex;
-  gap: 1rem;
-}
-#dtmView .desktop img {
-  width: 100%;
-}
-#dtmView .tablet img {
-  width: 75%;
-}
-#dtmView .mobile img {
-  width: 50%;
-}
-#navElements .mainUl {
-  margin: 2rem 4rem;
-}
-#navElements .mainUl .mainLi {
-  font-weight: 500;
-  margin: 0.5rem;
-}
-#navElements .mainUl .subUl {
-  margin: 0 2rem;
-}
-#navElements .container img,
-#views .container img,
-#desktopNotification img,
-#workGroup img,
-#calander img,
-#userProfile img,
-#contacts img,
-#leads img,
-#projects img,
-#reports img,
-#reschedule img {
-  width: 100%;
-  margin: 2rem 0;
-}
-#navElements .container h2 {
-  margin-bottom: 0;
-  margin-top: 6rem;
-}
-#navElements .container h3 {
-  margin: 0.5rem 2rem 0;
-}
-#navElements .container ul {
-  margin: 2rem;
-}
-#navElements .container ul li {
-  margin: 2rem 0;
-}
-#navElements .container .navItemName {
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-#navElements .container .moduleList,
-#navElements .container .moduleMenu,
-#navElements .container .quickCreate,
-#navElements .container .notification,
-#navElements .container .userMenu,
-#views .container .actionTab,
-#desktopNotification .popup,
-#calander .calanderActions,
-#calander .quickCalander,
-#userProfile .userTab,
-#contacts .actionTab,
-#leads .leadAction,
-#leads .convertLead,
-#leads .flex,
-#calls .actions,
-#tasks .actions,
-#meetings .actions,
-#notes .actions,
-#opportunities .actions,
-#cases .actions,
-#projects .actions,
-#reports .actions,
-#reschedule .actions {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-#navElements .container .moduleList img,
-#navElements .container .quickCreate img,
-#navElements .container .notification img,
-#navElements .container .userMenu img {
-  margin: 0;
-  width: 10%;
-  object-fit: contain;
-}
-#navElements .container .moduleMenu img,
-#navElements .container .sidebarImg img {
-  margin: 1rem 0;
-  width: 10%;
-  object-fit: contain;
-}
-#views .container .actionTab img,
-#desktopNotification .popup img,
-#calander .calanderActions img,
-#userProfile .userTab img,
-#leads .flex img,
-#cases .actions img {
-  margin: 0;
-  width: 20%;
-  object-fit: contain;
-}
-#calander .quickCalander img,
-#contacts .actionTab img,
-#leads .leadAction img,
-#calls .actions img,
-#tasks .actions img,
-#meetings .actions img,
-#notes .actions img,
-#opportunities .actions img,
-#projects .actions img,
-#reports .actions img {
-  margin: 1rem 0;
-  width: 20%;
-  object-fit: contain;
-}
-#navElements .container .sidebarImg {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin: 2rem;
-}
-#navElements .TtopNavMenu img,
-#navElements .TbottomNavMenu img {
-  width: 75%;
-}
-#navElements .MtopNavMenu img,
-#navElements .MbottomNavMenu img {
-  width: 50%;
-}
-#views .container ul,
-#desktopNotification ul,
-#calander ul,
-#userProfile ul,
-#contacts ul,
-#leads ul,
-#calls ul,
-#tasks ul,
-#meetings ul,
-#notes ul,
-#opportunities ul,
-#cases ul,
-#projects ul,
-#reports ul {
-  margin: 1rem 0 1rem 5rem;
-}
-#views .container ul li,
-#desktopNotification ul li,
-#calander ul li,
-#contacts ul li,
-#leads ul li,
-#calls ul li,
-#tasks ul li,
-#meetings ul li,
-#notes ul li,
-#opportunities ul li,
-#cases ul li,
-#projects ul li,
-#reports ul li {
-  margin: 2rem 0;
-}
-#search h2,
-#desktopNotification h2 {
-  margin: 3rem 0 0 0;
-}
-#search img {
-  width: 100%;
-  margin: 3rem 0 1rem 0;
-}
-#workGroup h1 {
-  margin-bottom: 2rem;
-}
-#calander .calanderSettingsImg:first-of-type img {
-  margin-bottom: 0 !important;
-}
-#userProfile h2 {
-  margin: 5rem 0 0 0;
-}
-#leads .convertLead img,
-#reschedule .actions img {
-  width: 40%;
-}
-#reports .chartsType li {
-  margin: 1rem 0;
-}
-#sms h3 {
-  text-align: center;
-  margin: 8rem auto;
 }
 footer {
   display: flex;
@@ -293,4 +85,172 @@ footer a {
   text-decoration: none;
   color: #408bda;
   cursor: pointer;
+}
+/* ----------------------------------------------------------------------------- */
+#tableOfContent main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+#tableOfContent main ul li {
+  margin: 1rem 10rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #408bda;
+  cursor: pointer;
+}
+#gettingStarted main {
+  width: 40%;
+}
+#dtmView main {
+  width: 60%;
+}
+#dtmView .mobile,
+#dtmView .tablet {
+  display: flex;
+  gap: 3rem;
+}
+#dtmView .desktop img {
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+}
+#dtmView .tablet img,
+#navElements .tablet img {
+  width: 50%;
+  height: 100%;
+  margin-top: 0.5rem;
+}
+#dtmView .mobile img,
+#navElements .mobile img {
+  width: 25%;
+  margin-top: 0.5rem;
+}
+#navElements .mainUl {
+  margin: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#navElements .mainUl .subUl {
+  margin: 0 3rem;
+}
+#navElements .container h2 {
+  margin-bottom: 0;
+  margin-top: 6rem;
+}
+#navElements .container h3 {
+  margin: 0.5rem 1.5rem 0;
+}
+#userProfile h2 {
+  margin: 5rem 0 0 0;
+}
+#userProfile .list li,
+#reports .list li {
+  margin: 0.5rem;
+}
+#sms h3 {
+  text-align: center;
+  margin: 8rem auto;
+}
+@media screen and (max-width: 425px) {
+  nav {
+    padding: 1.5rem 1rem;
+  }
+  nav a,
+  nav strong {
+    font-size: 0.8rem;
+  }
+  main {
+    max-width: 425px;
+    padding: 1rem;
+  }
+  h1 {
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  h2 {
+    margin: 2rem 0 0.5rem;
+    font-size: 1rem;
+  }
+  h3 {
+    margin: 2rem;
+    font-weight: 500;
+    font-size: 0.85rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  img {
+    margin: 1rem 0;
+  }
+  .flex {
+    gap: 1.5rem;
+  }
+  .flex img {
+    min-width: 20%;
+    max-width: 30%;
+  }
+  .list {
+    margin: 1rem 0 0 2rem;
+  }
+  .list li {
+    margin: 1rem 0;
+    font-size: 0.8rem;
+  }
+  .listName {
+    margin-bottom: 0.4rem;
+  }
+  footer {
+    padding: 1rem;
+  }
+  footer a,
+  footer small {
+    font-size: 0.7rem;
+  }
+  /* ----------------------------------------------------------------------------- */
+  #tableOfContent main ul li {
+    margin: 1rem 3rem;
+    font-size: 0.9rem;
+  }
+  #gettingStarted main {
+    width: 100%;
+  }
+  #dtmView main {
+    width: 100%;
+  }
+  #dtmView .mobile,
+  #dtmView .tablet {
+    gap: 1.5rem;
+  }
+  #dtmView .tablet img,
+  #navElements .tablet img {
+    width: 47%;
+  }
+  #dtmView .mobile img,
+  #navElements .mobile img {
+    width: 30%;
+  }
+  #navElements .mainUl {
+    margin: 1.5rem 3rem;
+  }
+  #navElements .mainUl .subUl {
+    margin: 0 2rem;
+    font-size: 0.8rem;
+  }
+  #navElements .container h2 {
+    margin-top: 3rem;
+  }
+  #navElements .container h3 {
+    margin: 0.5rem 1rem 0;
+  }
+  #userProfile h2 {
+    margin: 3rem 0 0 0;
+  }
+  #userProfile .list li,
+  #reports .list li {
+    margin: 0.2rem;
+  }
 }
